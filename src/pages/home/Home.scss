@@ -1,3 +1,6 @@
 .home {
-  background-color: tomato;
+  display: flex;
+  .homeContainer {
+    flex: 6;
+  }
 }
