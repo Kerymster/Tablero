@@ -1,9 +1,11 @@
 import React from "react";
+import Sidebar from "../../components/aside/Sidebar";
 import "./Home.css";
 const Home = () => {
   return (
     <div className="home">
-      <h1 className="tablero">Tablero</h1>
+      <Sidebar />
+      <div className="homeContainer">Content</div>
     </div>
   );
 };

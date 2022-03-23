@@ -1,4 +1,12 @@
 .home {
-  background-color: tomato;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .homeContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
 }
 /*# sourceMappingURL=Home.css.map */

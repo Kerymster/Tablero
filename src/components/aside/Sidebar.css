@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=Sidebar.css.map */
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-right: 0.5px solid #6b737c;
+  min-height: 100vh;
+  background-color: #30475e;
+  color: #ddd;
+}
+
+.sidebar .section-top {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .section-top .logo {
+  font-size: 25px;
+  color: #30475e;
+  margin-right: 5px;
+}
+
+.sidebar .section-top .logo-name {
+  font-size: 25px;
+  font-weight: bold;
+  color: #f05454;
+}
+
+.sidebar hr {
+  height: 0;
+  border: 0.5px solid #ececec;
+}
+
+.sidebar .section-mid {
+  padding-left: 10px;
+}
+
+.sidebar .section-mid ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar .section-mid ul .title {
+  font-size: 10px;
+  font-weight: bold;
+  color: #b83a3a;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.sidebar .section-mid ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar .section-mid ul li:hover {
+  background-color: #222831;
+}
+
+.sidebar .section-mid ul li .icon {
+  font-size: 18px;
+  color: #f05454;
+}
+
+.sidebar .section-mid ul li span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ddd;
+  margin-left: 10px;
+}
+
+.sidebar .section-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px;
+}
+
+.sidebar .section-bottom .colorOption {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid #b83a3a;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.sidebar .section-bottom .colorOption:nth-child(1) {
+  background-color: #dddddd;
+}
+
+.sidebar .section-bottom .colorOption:nth-child(2) {
+  background-color: #222831;
+}
+/*# sourceMappingURL=Sidebar.css.map */
