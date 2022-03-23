@@ -3,7 +3,6 @@ import {
   AreaChart,
   Area,
   XAxis,
-  YAxis,
   CartesianGrid,
   Tooltip,
   ResponsiveContainer,
@@ -36,7 +35,7 @@ const Graphic = () => {
             </linearGradient>
           </defs>
           <XAxis dataKey="name" stroke="grey" />
-          <CartesianGrid strokeDasharray="3 3" />
+          <CartesianGrid strokeDasharray="3 3" className="charthGrid" />
           <Tooltip />
           <Area
             type="monotone"
