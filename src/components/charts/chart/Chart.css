@@ -1,0 +1,107 @@
+.chart {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-shadow: 7px 7px 11px 2px #dddddd;
+  box-shadow: 7px 7px 11px 2px #dddddd;
+  padding: 10px;
+}
+
+.chart .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: grey;
+}
+
+.chart .top .title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.chart .bottom {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.chart .bottom .progCard {
+  height: 100px;
+  width: 100px;
+}
+
+.chart .bottom .title {
+  font-weight: 500;
+  color: gray;
+}
+
+.chart .bottom .amount {
+  font-size: 30px;
+}
+
+.chart .bottom .desc {
+  font-weight: 300;
+  font-size: 12px;
+  color: grey;
+  text-align: center;
+}
+
+.chart .bottom .summary {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.chart .bottom .summary .item {
+  text-align: center;
+}
+
+.chart .bottom .summary .item .itemTitle {
+  font-size: 14px;
+  color: grey;
+}
+
+.chart .bottom .summary .item .itemResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.chart .bottom .summary .item .itemResult.positive {
+  color: green;
+}
+
+.chart .bottom .summary .item .itemResult.negative {
+  color: red;
+}
+/*# sourceMappingURL=Chart.css.map */
