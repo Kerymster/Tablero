@@ -16,24 +16,25 @@ const NavigationBar = () => {
         </div>
         <div className="items">
           <div className="item">
-            <LanguageRoundedIcon />
+            <LanguageRoundedIcon className="icon" />
             English
           </div>
           <div className="item">
-            <LanguageRoundedIcon />
-            English
+            <DarkModeOutlinedIcon className="icon" />
           </div>
           <div className="item">
-            <LanguageRoundedIcon />
-            English
+            <NotificationsNoneOutlinedIcon className="icon" />
+            <div className="counter">1</div>
           </div>
           <div className="item">
-            <LanguageRoundedIcon />
-            English
+            <ChatBubbleOutlineOutlinedIcon className="icon" />
+            <div className="counter">2</div>
           </div>
           <div className="item">
-            <LanguageRoundedIcon />
-            English
+            <ListOutlinedIcon className="icon" />
+          </div>
+          <div className="item">
+            <img src="https://picsum.photos/200" alt="" className="avatar" />
           </div>
         </div>
       </div>
