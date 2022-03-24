@@ -38,6 +38,8 @@
 
 .new .newContainer .top .left img,
 .new .newContainer .bottom .left img {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -57,12 +59,25 @@
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .new .newContainer .top .right form .formInput,
 .new .newContainer .bottom .right form .formInput {
   width: 40%;
+}
+
+.new .newContainer .top .right form .formInput label,
+.new .newContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
 }
 
 .new .newContainer .top .right form .formInput input,
@@ -71,5 +86,22 @@
   padding: 5px;
   border: none;
   border-bottom: 1px solid grey;
+}
+
+.new .newContainer .top .right form .formInput .icon,
+.new .newContainer .bottom .right form .formInput .icon {
+  cursor: pointer;
+}
+
+.new .newContainer .top .right form button,
+.new .newContainer .bottom .right form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: #30475e;
+  color: #f05454;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
 }
 /*# sourceMappingURL=Addnew.css.map */
