@@ -11,11 +11,14 @@ import FitnessCenterRoundedIcon from "@mui/icons-material/FitnessCenterRounded";
 import SettingsIcon from "@mui/icons-material/Settings";
 import FaceOutlinedIcon from "@mui/icons-material/FaceOutlined";
 import MeetingRoomOutlinedIcon from "@mui/icons-material/MeetingRoomOutlined";
+import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="section-top">
-        <div className="logo-name">TABLERO</div>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <div className="logo-name">TABLERO</div>
+        </Link>
       </div>
 
       <div className="section-mid">
@@ -25,13 +28,17 @@ const Sidebar = () => {
             <DashboardIcon className="icon" /> <span>Dashboard</span>
           </li>
           <p className="title">LISTS</p>
-          <li>
-            <AccountCircleOutlinedIcon className="icon" /> <span>Users</span>
-          </li>
-          <li>
-            <ProductionQuantityLimitsRoundedIcon className="icon" />{" "}
-            <span>Products</span>
-          </li>
+          <Link to="/users" style={{ textDecoration: "none" }}>
+            <li>
+              <AccountCircleOutlinedIcon className="icon" /> <span>Users</span>
+            </li>
+          </Link>
+          <Link to="/products" style={{ textDecoration: "none" }}>
+            <li>
+              <ProductionQuantityLimitsRoundedIcon className="icon" />
+              <span>Products</span>
+            </li>
+          </Link>
           <li>
             <BorderColorOutlinedIcon className="icon" /> <span>Orders</span>
           </li>
