@@ -1,1 +1,107 @@
-/* No CSS *//*# sourceMappingURL=Addnew.css.map */
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.new .newContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.new .newContainer .top,
+.new .newContainer .bottom {
+  -webkit-box-shadow: 7px 7px 11px 2px #dddddd;
+  box-shadow: 7px 7px 11px 2px #dddddd;
+  padding: 10px;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new .newContainer .top h1,
+.new .newContainer .bottom h1 {
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.new .newContainer .top .left,
+.new .newContainer .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+.new .newContainer .top .left img,
+.new .newContainer .bottom .left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.new .newContainer .top .right,
+.new .newContainer .bottom .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.new .newContainer .top .right form,
+.new .newContainer .bottom .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.new .newContainer .top .right form .formInput,
+.new .newContainer .bottom .right form .formInput {
+  width: 40%;
+}
+
+.new .newContainer .top .right form .formInput label,
+.new .newContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.new .newContainer .top .right form .formInput input,
+.new .newContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.new .newContainer .top .right form .formInput .icon,
+.new .newContainer .bottom .right form .formInput .icon {
+  cursor: pointer;
+}
+
+.new .newContainer .top .right form button,
+.new .newContainer .bottom .right form button {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  background-color: #30475e;
+  color: #f05454;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=Addnew.css.map */
